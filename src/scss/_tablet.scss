@@ -1,0 +1,88 @@
+@media(max-width: 768px) {
+.container {
+    max-width: 715px;
+}
+///////////////////////////////////////////
+.b-header {
+    .header__container {
+        position: relative;
+        max-width: 715px;
+    }
+    .logo {
+        width: 166px;
+        height: 26px;
+    }
+    .header__nav {
+       position: absolute;
+       left: 0;
+       right: 0;
+       top: 65px;
+       width: unset;
+    }
+    .header__social-link {
+        display: none;
+    }
+    ///////////////////////////////////////
+    .header__bottom {
+        min-height: 45px;
+    }
+    .header__phone {
+        position: absolute;
+        top: -57px;
+        right: 8%;
+    }
+    .header__search {
+        position: absolute;
+        top: -60px;
+        right: 0;
+        span {
+            width: 30px;
+            height: 30px;
+        }
+        .header__input {
+            display: none;
+        }
+    }
+}
+///////////////////////////////////////////
+.b-first-section {
+    ///////////////////////////////////////////
+        .grid__item--hero {
+            img {
+                max-width: 342px;
+                height: 452px;
+            }
+        }
+        .grid__item--broad {
+            img {
+                max-width: 342px;
+                height: 228px;
+            }
+        }
+    ///////////////////////////////////////////
+    .grid__hero-container {
+        padding: 15px 15px 30px 30px;
+    }
+    .grid__text {
+        line-height: 19px;
+        color: #fff;
+        margin-top: 178px;
+    }
+    .grid__subtitle {
+        font-size: 20px;
+        max-width: 368px;
+        margin-bottom: 15px;
+    }
+    .meida-img {
+        max-width: 156px;
+        height: 133px;
+    }
+}
+///////////////////////////////////////////
+.b-second-section {
+    img {
+        max-width: 342px;
+        height: 569px;
+    }
+}
+}

@@ -1,0 +1,106 @@
+@media(max-width: 320px) {
+.container {
+    max-width: 279px;
+}
+///////////////////////////////////////////
+.b-header {
+    .header__top {
+        padding: 20px 0;
+    }
+    .header__container {
+        max-width: 279px;
+    }
+    .logo {
+        width: 111px;
+        height: 18px;
+    }
+    .header__nav {
+        display: none;
+    }
+    ///////////////////////////////////////
+    .header__phone {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 12px;
+        span {
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .header__search {
+        top: -53px;
+        right: 0;
+    }
+} 
+///////////////////////////////////////////
+.b-first-section {
+    ///////////////////////////////////////////
+    .grid__item {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+        .grid__item--hero {
+            grid-column: 1/3;
+            grid-row: 1/2;
+            img {
+                max-width: 279px;
+                height: 422px;
+            }
+        }
+        .grid__item--broad {
+            grid-row: 2/3;
+            grid-column: 1/3;
+            img {
+                max-width: 279px;
+                height: 186px;
+            }
+        }
+    ///////////////////////////////////////////
+    .grid__hero-container {
+        padding: 15px 15px 30px 30px;
+    }
+    .grid__text {     
+        margin-top: 175px;
+    }
+    .grid__title {
+        font-size: 24px;
+        max-width: 169px;
+        line-height: 110%;
+    }
+    .grid__subtitle {
+        font-size: 18px;
+        max-width: 368px;
+        margin-bottom: 15px;
+    }
+    .meida-img {
+        max-width: 124px;
+        height: 105px;
+    }
+    .grid__item--last {
+        grid-column: 2/3;
+    }
+}
+///////////////////////////////////////////
+.b-second-section {
+    .grid__item--img {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .grid__item--formm {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .grid__form {
+        flex-direction: column;
+    }
+    img {
+        max-width: 278px;
+        height: 278px;
+    }
+    .grid__btn {
+        margin-top: 20px;
+        margin-left: unset;
+    }
+}
+}

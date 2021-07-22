@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>High pass</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!------------MAP------------->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+    <!--------------------------------------->
+    <header class="b-header">
+        <div class="header__top">
+            <div class="header__container">
+                <img class="logo" src="img/Logo.svg" alt="Logo">
+                <nav class="header__nav">
+                    <a href="#about" class="header__link">О студии</a>
+                    <a href="#projects" class="header__link">Наши проекты</a>
+                    <a href="#services" class="header__link">Услуги</a>
+                    <a href="#master" class="header__link">Мастер-классы</a>
+                    <a href="#contacts" class="header__link">Контакты</a>
+                </nav>
+                <div class="header__social-container">
+                    <a href="#" class="header__social-link header__social-link--inst"></a>
+                    <a href="#" class="header__social-link header__social-link--fb"></a>
+                    <a href="#" class="header__social-link header__social-link--vk"></a>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="header__container">
+                <a href="tel:+749542423532" class="header__phone">
+                    <span></span>
+                    <p>+7 (495) 42-423-532</p>
+                </a>
+                <div class="header__search">
+                    <span></span>
+                    <input placeholder="Что будем иcкать?" class="header__input" type="text">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--------------------------------------->
+    <main>
+        <section class="b-first-section">
+            <div class="container">
+                <div class="grid">
+                    <div class="grid__item grid__item--hero">
+                        <img src="img/hero.jpg" alt="hero">
+                        <div class="grid__hero-container">
+                            <div class="grid__tag">
+                                <p>#мастеркласс</p>
+                            </div>
+                            <p class="grid__text">Мастер-класс от Игоря Робова</p>
+                            <h1 class="grid__title">Неоновый фотосет 2.0 7 июля 20:00</h1>
+                            <button class="grid__btn">Узнать больше</button>
+                        </div>
+                    </div>
+                    <div class="grid__item grid__item--broad">
+                        <h2 class="grid__subtitle">Работы участников предыдущего мастер-класса</h2>
+                        <img src="img/img1.jpg" alt="Err">
+                    </div>
+                    <div class="grid__item">
+                        <img class="meida-img" src="img/img2.jpg" alt="Err">
+                    </div>
+                    <div class="grid__item grid__item--last">
+                        <img class="meida-img" src="img/img3.jpg" alt="Err">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------------------------------->
+        <section id="about" class="b-second-section">
+            <div class="container">
+                <h2 class="title">О студии</h2>
+                <div class="grid">
+                    <div class="grid__item grid__item--text">
+                        <p class="grid__test">
+                            В рамках спецификации современных стандартов, интерактивные прототипы, инициированные 
+                            исключительно синтетически, ограничены исключительно образом мышления. Предварительные
+                            выводы неутешительны: высокотехнологичная концепция общественного уклада требует от нас 
+                            анализа соответствующих условий активизации! Следует отметить, что семантический разбор 
+                            внешних противодействий  фиксирует необходимость распределения внутренних резервов и ресурсов. 
+                            Безусловно, граница обучения кадров предоставляет широкие возможности для первоочередных требований. 
+                            Повседневная практика показывает, что глубокий уровень погружения предполагает независимые 
+                            способы реализации новых принципов формирования материально-технической и кадровой базы. 
+                            Приятно, граждане, наблюдать, как явные признаки институционализации являются только методом 
+                            политического участия и нарушающими общечеловеческие нормы этики.
+                        </p>
+                    </div>
+                    <div class="grid__item grid__item--img">
+                        <img src="img/img4.jpg" alt="Err">
+                    </div>
+                    <div class="grid__item grid__item--form">
+                        <h3 class="grid__title">Подписаться на рассылку</h3>
+                        <form class="grid__form" action="" method="POST">
+                            <input class="grid__input" type="email" placeholder="E-mail">
+                            <button class="grid__btn" type="submit">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------------------------------->
+        <section id="projects" class="b-third-section">
+            <div class="container">
+                <h2 class="title">Наши проекты</h2>
+                <div class="block-tabs">
+                    <div class="tabs-content">
+                        <div  data-target="one" class="js-tab-content grid tab-content-active">
+                            <div class="grid1-items">
+                                <img src="img/th1.jpg" alt="Err">
+                                <p class="grid1-items__text">Синтетически, смешаны с не уникальными данными до степени...</p>
+                                <div class="grid1-items__date-block">
+                                    <img src="img/calendar.svg" alt="Err">
+                                    <p class="grid1-items__date">16 июня</p>
+                                </div>
+                                <div class="grid__tag">
+                                    <p>#пейзаж</p>
+                                </div>
+                            </div>
+                            <div class="grid1-items">
+                                <img src="img/th2.jpg" alt="Err">
+                                <p class="grid1-items__text">В своём стремлении улучшить опыт мы упускаем, что явные...</p>
+                                <div class="grid1-items__date-block">
+                                    <img src="img/calendar.svg" alt="Err">
+                                    <p class="grid1-items__date">28 мая</p>
+                                </div>
+                                <div class="grid__tag">
+                                    <p>#портрет</p>
+                                </div>
+                            </div>
+                            <div class="grid1-items">
+                                <img src="img/th3.jpg" alt="Err">
+                                <p class="grid1-items__text">Равным образом, высокое качество позиционных...</p>
+                                <div class="grid1-items__date-block">
+                                    <img src="img/calendar.svg" alt="Err">
+                                    <p class="grid1-items__date">14 мая</p>
+                                </div>
+                                <div class="grid__tag">
+                                    <p>#предмет</p>
+                                </div>
+                            </div>
+                            <div class="grid1-items">
+                                <img src="img/th4.jpg" alt="Err">
+                                <div class="grid1-items__text-absolute">
+                                    <div class="grid1-items__date-block--black">
+                                        <img src="img/calendar2.svg" alt="Err">
+                                        <p class="grid1-items__date--black">9 апреля</p>
+                                    </div>
+                                    <h3 class="grid1-items__text-absolute__title">Cемантический разбор</h3>
+                                    <p class="grid1-items__text-absolute__text">В рамках спецификации современных стандартов, интерактивные прототипы</p>
+                                    <button class="grid1-items__text-absolute__btn">О проекте</button>
+                                </div>
+                                <div class="grid__tag">
+                                    <p>#fuji</p>
+                                </div>
+                            </div>
+                            <div class="grid1-items">
+                                <img src="img/th5.jpg" alt="Err">
+                                <div class="grid1-items__text-absolute">
+                                    <div class="grid1-items__date-block--black">
+                                        <img src="img/calendar2.svg" alt="Err">
+                                        <p class="grid1-items__date--black">20 марта</p>
+                                    </div>
+                                    <h3 class="grid1-items__text-absolute__title">Забвение</h3>
+                                    <p class="grid1-items__text-absolute__text">Играет важную роль в формировании глубокомысленных рассуждений</p>
+                                    <button class="grid1-items__text-absolute__btn">О проекте</button>
+                                </div>
+                                <div class="grid__tag">
+                                    <p>#проектзабвение</p>
+                                </div>
+                            </div>
+                            <div class="grid1-items">
+                                <img src="img/th6.jpg" alt="Err">
+                                <p class="grid1-items__text-big">Как принято считать, многие известные личности и по сей день остаются уделом либералов...</p>
+                                <div class="grid1-items__date-block">
+                                    <img src="img/calendar.svg" alt="Err">
+                                    <p class="grid1-items__date">9 марта</p>
+                                </div>
+                                <div class="grid__tag">
+                                    <p>#ретушь</p>
+                                </div>
+                            </div>
+                            <div class="grid1-items">
+                                <img src="img/th7.jpg" alt="Err">
+                                <p class="grid1-items__text-big">С учётом сложившейся международной обстановки, новая модель организационной...</p>
+                                <div class="grid1-items__date-block">
+                                    <img src="img/calendar.svg" alt="Err">
+                                    <p class="grid1-items__date">1 марта</p>
+                                </div>
+                                <div class="grid__tag">
+                                    <p>#портрет</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div  data-target="two" class="js-tab-content grid">
+                            <div class="grid1-items grid1-items--sec">
+                                <img src="img/th11.jpg" alt="Err">
+                                <div class="grid1-items__text-absolute">
+                                    <div class="grid1-items__date-block--black">
+                                        <img src="img/calendar2.svg" alt="Err">
+                                        <p class="grid1-items__date--black">24 февраля</p>
+                                    </div>
+                                    <h3 class="grid1-items__text-absolute__title">Спорная точка зрения</h3>
+                                    <p class="grid1-items__text-absolute__text">Ясность нашей позиции очевидна: убеждённость некоторых оппонентов</p>
+                                    <button class="grid1-items__text-absolute__btn">О проекте</button>
+                                </div>
+                                <div class="grid__tag">
+                                    <p>#портрет</p>
+                                </div>
+                            </div>
+                            <div class="grid1-items grid1-items--sec">
+                                <img src="img/th12.jpg" alt="Err">
+                                <p class="grid1-items__text-big">Идейные соображения высшего порядка, а также убеждённость некоторых оппонентов...</p>
+                                <div class="grid1-items__date-block">
+                                    <img src="img/calendar.svg" alt="Err">
+                                    <p class="grid1-items__date">20 февраля</p>
+                                </div>
+                                <div class="grid__tag">
+                                    <p>#ретушь</p>
+                                </div>
+                            </div>
+                            <div class="grid1-items grid1-items--sec">
+                                <img src="img/th13.jpg" alt="Err">
+                                <p class="grid1-items__text-big">Прежде всего, повышение уровня гражданского сознания говорит о возможностях приоритизации...</p>
+                                <div class="grid1-items__date-block">
+                                    <img src="img/calendar.svg" alt="Err">
+                                    <p class="grid1-items__date">18 февраля</p>
+                                </div>
+                                <div class="grid__tag">
+                                    <p>#портрет</p>
+                                </div>
+                            </div>
+                            <div class="grid1-items grid1-items--sec">
+                                <img src="img/th14.jpg" alt="Err">
+                                <p class="grid1-items__text">Равным образом, сложившаяся структура организации...</p>
+                                <div class="grid1-items__date-block">
+                                    <img src="img/calendar.svg" alt="Err">
+                                    <p class="grid1-items__date">15 февраля</p>
+                                </div>
+                                <div class="grid__tag">
+                                    <p>#пейзаж</p>
+                                </div>
+                            </div>
+                            <div class="grid1-items grid1-items--sec">
+                                <img src="img/th15.jpg" alt="Err">
+                                <p class="grid1-items__text">Безусловно, реализация намеченных плановых заданий обеспечивает...</p>
+                                <div class="grid1-items__date-block">
+                                    <img src="img/calendar.svg" alt="Err">
+                                    <p class="grid1-items__date">10 февраля</p>
+                                </div>
+                                <div class="grid__tag">
+                                    <p>#предмет</p>
+                                </div>
+                            </div>
+                            <div class="grid1-items grid1-items--sec">
+                                <img src="img/th16.jpg" alt="Err">
+                                <p class="grid1-items__text">Безусловно, курс на социальный национальный...</p>
+                                <div class="grid1-items__date-block">
+                                    <img src="img/calendar.svg" alt="Err">
+                                    <p class="grid1-items__date">7 февраля</p>
+                                </div>
+                                <div class="grid__tag">
+                                    <p>#пейзаж</p>
+                                </div>
+                            </div>
+                            <div class="grid1-items grid1-items--sec">
+                                <img src="img/th17.jpg" alt="Err">
+                                <div class="grid1-items__text-absolute">
+                                    <div class="grid1-items__date-block--black">
+                                        <img src="img/calendar2.svg" alt="Err">
+                                        <p class="grid1-items__date--black">2 февраля</p>
+                                    </div>
+                                    <h3 class="grid1-items__text-absolute__title">Задания по разработке своевременного</h3>
+                                    <p class="grid1-items__text-absolute__text">Повседневная практика показывает, что сложившаяся структура организации играет важную роль</p>
+                                    <button class="grid1-items__text-absolute__btn">О проекте</button>
+                                </div>
+                                <div class="grid__tag">
+                                    <p>#проектджаз</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs-btn">
+                        <div data-path="one" class="tab--btn tab-content-active-btn">1</div>
+                        <div data-path="two" class="tab--btn">2</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------------------------------->
+        <!-- <section id="services" class="b-fourth-section">
+            <div class="container">
+                <div class="grid-container">
+                    <div class="grid-container__item grid-container__item--first">
+                        <h2 class="title">Услуги студии</h2>
+                        <div class="grid__swich">
+                            <div class="grid__swich-inner">
+                                <p data-path="ten" class="grid__swich-item grid__swich-item--active">Основной перечень</p>
+                                <p data-path="eleven" class="grid__swich-item">Услуги по ретуши</p>
+                            </div>
+                        </div>
+                        <div data-target="ten" class="js-itt grid-container__inner1 content-active2">
+                            <div class="grid-container__inner1-item">
+                                <img src="img/fr1.jpg" alt="Err" class="grid-container__inner1-item__img">
+                                <div class="grid-container__inner1-item__container">
+                                    <h3 class="grid-container__inner1-item__title">Высокий уровень вовлечения</h3>
+                                    <p class="grid-container__inner1__text">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта.</p>
+                                    <div class="grid-container__inner1__more">
+                                        <a href="#" class="grid-container__inner1__more__text">Подробнее</a>
+                                        <img src="img/Arrow1.svg" alt="Err">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-container__inner1-item">
+                                <img src="img/fr2.jpg" alt="Err" class="grid-container__inner1-item__img">
+                                <div class="grid-container__inner1-item__container">
+                                    <h3 class="grid-container__inner1-item__title">Диаграммы связей</h3>
+                                    <p class="grid-container__inner1__text">Значимость этих проблем настолько очевидна, что реализация намеченных плановых заданий влечет за собой процесс.</p>
+                                    <div class="grid-container__inner1__more">
+                                        <a href="#" class="grid-container__inner1__more__text">Подробнее</a>
+                                        <img src="img/Arrow1.svg" alt="Err">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-container__inner1-item">
+                                <img src="img/fr3.jpg" alt="Err" class="grid-container__inner1-item__img">
+                                <div class="grid-container__inner1-item__container">
+                                    <h3 class="grid-container__inner1-item__title">Высокотехнологичная концепция</h3>
+                                    <p class="grid-container__inner1__text">В частности, убеждённость некоторых оппонентов способствует подготовке и реализации анализа существующих паттернов.</p>
+                                    <div class="grid-container__inner1__more">
+                                        <a href="#" class="grid-container__inner1__more__text">Подробнее</a>
+                                        <img src="img/Arrow1.svg" alt="Err">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-container__inner1-item">
+                                <img src="img/fr4.jpg" alt="Err" class="grid-container__inner1-item__img">
+                                <div class="grid-container__inner1-item__container">
+                                    <h3 class="grid-container__inner1-item__title">Сложившаяся структура организации</h3>
+                                    <p class="grid-container__inner1__text">Кстати,  сторонники тоталитаризма в науке будут объединены в целые кластеры себе подобных.</p>
+                                    <div class="grid-container__inner1__more">
+                                        <a href="#" class="grid-container__inner1__more__text">Подробнее</a>
+                                        <img src="img/Arrow1.svg" alt="Err">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-container__inner1-item">
+                                <img src="img/fr5.jpg" alt="Err" class="grid-container__inner1-item__img">
+                                <div class="grid-container__inner1-item__container">
+                                    <h3 class="grid-container__inner1-item__title">Внутренние резервы и ресурсы</h3>
+                                    <p class="grid-container__inner1__text">Банальные, но неопровержимые выводы, а также ключевые особенности структуры проекта являются только методом.</p>
+                                    <div class="grid-container__inner1__more">
+                                        <a href="#" class="grid-container__inner1__more__text">Подробнее</a>
+                                        <img src="img/Arrow1.svg" alt="Err">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-target="eleven" class="js-itt grid-container__inner2">
+                            <div class="grid-container__inner2-item">
+                                <img src="img/frs1.jpg" alt="Err">
+                                <div class="grid-container__inner2__content">
+                                    <h3 class="grid-container__inner2__title">Принимая во внимание показатели</h3>
+                                    <div class="grid-container__inner2__more">
+                                        <a href="#" class="grid-container__inner2__more-text">Подробнее</a>
+                                        <img src="img/Arrow1.svg" alt="Err">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-container__inner2-item">
+                                <img src="img/frs6.jpg" alt="Err">
+                                <div class="grid-container__inner2__content">
+                                    <h3 class="grid-container__inner2__title">Таким образом, выбранный нами...</h3>
+                                    <div class="grid-container__inner2__more">
+                                        <a href="#" class="grid-container__inner2__more-text">Подробнее</a>
+                                        <img src="img/Arrow1.svg" alt="Err">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-container__inner2-item">
+                                <img src="img/frs2.jpg" alt="Err">
+                                <div class="grid-container__inner2__content">
+                                    <h3 class="grid-container__inner2__title">Также как высокое качество...</h3>
+                                    <div class="grid-container__inner2__more">
+                                        <a href="#" class="grid-container__inner2__more-text">Подробнее</a>
+                                        <img src="img/Arrow1.svg" alt="Err">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-container__inner2-item">
+                                <img src="img/frs7.jpg" alt="Err">
+                                <div class="grid-container__inner2__content">
+                                    <h3 class="grid-container__inner2__title">Безусловно, семантический разбор...</h3>
+                                    <div class="grid-container__inner2__more">
+                                        <a href="#" class="grid-container__inner2__more-text">Подробнее</a>
+                                        <img src="img/Arrow1.svg" alt="Err">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-container__inner2-item">
+                                <img src="img/frs3.jpg" alt="Err">
+                                <div class="grid-container__inner2__content">
+                                    <h3 class="grid-container__inner2__title">Внезапно, предприниматели в интернете...</h3>
+                                    <div class="grid-container__inner2__more">
+                                        <a href="#" class="grid-container__inner2__more-text">Подробнее</a>
+                                        <img src="img/Arrow1.svg" alt="Err">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-container__inner2-item">
+                                <img src="img/frs8.jpg" alt="Err">
+                                <div class="grid-container__inner2__content">
+                                    <h3 class="grid-container__inner2__title">Есть над чем подумать: активные...</h3>
+                                    <div class="grid-container__inner2__more">
+                                        <a href="#" class="grid-container__inner2__more-text">Подробнее</a>
+                                        <img src="img/Arrow1.svg" alt="Err">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-container__inner2-item">
+                                <img src="img/frs4.jpg" alt="Err">
+                                <div class="grid-container__inner2__content">
+                                    <h3 class="grid-container__inner2__title">Сделанные на базе аналитики выводы...</h3>
+                                    <div class="grid-container__inner2__more">
+                                        <a href="#" class="grid-container__inner2__more-text">Подробнее</a>
+                                        <img src="img/Arrow1.svg" alt="Err">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-container__inner2-item">
+                                <img src="img/frs9.jpg" alt="Err">
+                                <div class="grid-container__inner2__content">
+                                    <h3 class="grid-container__inner2__title">Как принято считать, сторонники...</h3>
+                                    <div class="grid-container__inner2__more">
+                                        <a href="#" class="grid-container__inner2__more-text">Подробнее</a>
+                                        <img src="img/Arrow1.svg" alt="Err">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-container__inner2-item">
+                                <img src="img/frs5.jpg" alt="Err">
+                                <div class="grid-container__inner2__content">
+                                    <h3 class="grid-container__inner2__title">Задача организации, в особенности...</h3>
+                                    <div class="grid-container__inner2__more">
+                                        <a href="#" class="grid-container__inner2__more-text">Подробнее</a>
+                                        <img src="img/Arrow1.svg" alt="Err">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid-container__inner2-item">
+                                <img src="img/frs10.jpg" alt="Err">
+                                <div class="grid-container__inner2__content">
+                                    <h3 class="grid-container__inner2__title">Активно развивающиеся страны...</h3>
+                                    <div class="grid-container__inner2__more">
+                                        <a href="#" class="grid-container__inner2__more-text">Подробнее</a>
+                                        <img src="img/Arrow1.svg" alt="Err">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-target="ten" class="grid-container__item grid-container__item--second js-itt content-active2">
+                        <div class="grid-container__item__hero">
+                            <img src="img/hero2.jpg" alt="Err">
+                            <div class="grid__hero-inner">
+                                <h3 class="title">Акция!</h3>
+                                <p class="text">Только в июне</p>
+                                <img class="sale" src="img/sale.svg" alt="Err">
+                                <p class="dp">1,5 часа портретной съемки + ретушь 10 снимков</p>
+                                <button class="btn">Узнать больше</button>
+                            </div>
+                        </div>
+                        <h3 class="grid-container__item--second-title">Выполненные работы</h3>
+                        <img src="img/fr11.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/fr12.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/fr13.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/fr14.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/fr15.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/fr16.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/fr17.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/fr18.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/fr19.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/fr20.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/fr21.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/fr22.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/fr23.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/fr24.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/fr25.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/fr26.jpg" alt="Err" class="grid-container__item--second-item">
+                    </div>
+                    <div data-target="eleven" class="js-itt grid-container__item--second2">
+                        <div class="grid-container__item__hero">
+                            <img src="img/hero2.jpg" alt="Err">
+                            <div class="grid__hero-inner">
+                                <h3 class="title">Акция!</h3>
+                                <p class="text">Только в июне</p>
+                                <img class="sale" src="img/sale.svg" alt="Err">
+                                <p class="dp">1,5 часа портретной съемки + ретушь 10 снимков</p>
+                                <button class="btn">Узнать больше</button>
+                            </div>
+                        </div>
+                        <h3 class="grid-container__item--second-title">Выполненные работы</h3>
+                        <img src="img/frs11.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/frs12.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/frs13.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/frs14.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/frs15.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/frs16.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/frs17.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/frs18.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/frs19.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/frs20.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/frs21.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/frs22.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/frs23.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/frs24.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/frs25.jpg" alt="Err" class="grid-container__item--second-item">
+                        <img src="img/frs26.jpg" alt="Err" class="grid-container__item--second-item">
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!--------------------------------------->
+        <!-- <section id="master" class="b-fifth-section">
+            <div class="container">
+                <h2 class="title">Мастер-классы</h2>
+                <div class="grid">
+                    <div class="grid__item-img">
+                        <img src="img/fi.jpg" alt="Err">
+                    </div>
+                    <div class="grid-item__text">
+                        <div class="grid__date-time">
+                            <div class="grid__date">
+                                <img src="img/calendar2.svg" alt="Err" class="grid__date__img">
+                                <p class="grid__date__text">8 июня</p>
+                            </div>
+                            <div class="grid__time">
+                                <img src="img/time.svg" alt="Err" class="grid__time__img">
+                                <p class="grid__date__text">15:00</p>
+                            </div>
+                        </div>
+                        <h3 class="grid__title">Пленка для начинающих</h3>
+                        <p class="grid__text">
+                            Высокий уровень вовлечения представителей целевой 
+                            аудитории является четким доказательством простого 
+                            факта: семантический разбор внешних противодействий, 
+                            в своём классическом представлении.
+                        </p>
+                        <button class="grid__btn">Узнать больше</button>
+                    </div>
+                    <div class="grid__item">
+                        <img src="img/fi1.jpg" alt="Err">
+                        <div class="grid__item__subblock">
+                            <div class="grid__date-time">
+                                <div class="grid__date">
+                                    <img src="img/calendar2.svg" alt="Err" class="grid__date__img">
+                                    <p class="grid__date__text">9 июня</p>
+                                </div>
+                                <div class="grid__time">
+                                    <img src="img/time.svg" alt="Err" class="grid__time__img">
+                                    <p class="grid__date__text">15:00</p>
+                                </div>
+                            </div>
+                            <div class="grid__item__subtext">Ретушь. Продвинутый уровень</div>
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <img src="img/fi2.jpg" alt="Err">
+                        <div class="grid__item__subblock">
+                            <div class="grid__date-time">
+                                <div class="grid__date">
+                                    <img src="img/calendar2.svg" alt="Err" class="grid__date__img">
+                                    <p class="grid__date__text">10 июня</p>
+                                </div>
+                                <div class="grid__time">
+                                    <img src="img/time.svg" alt="Err" class="grid__time__img">
+                                    <p class="grid__date__text">16:00</p>
+                                </div>
+                            </div>
+                            <div class="grid__item__subtext">Портретная съемка. Свет</div>
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <img src="img/fi3.jpg" alt="Err">
+                        <div class="grid__item__subblock">
+                            <div class="grid__date-time">
+                                <div class="grid__date">
+                                    <img src="img/calendar2.svg" alt="Err" class="grid__date__img">
+                                    <p class="grid__date__text">11 июня</p>
+                                </div>
+                                <div class="grid__time">
+                                    <img src="img/time.svg" alt="Err" class="grid__time__img">
+                                    <p class="grid__date__text">16:00</p>
+                                </div>
+                            </div>
+                            <div class="grid__item__subtext">Макросъемка. Проблемы и нюансы</div>
+                        </div>
+                    </div>
+                    <div class="grid__item">
+                        <img src="img/fi4.jpg" alt="Err">
+                        <div class="grid__item__subblock">
+                            <div class="grid__date-time">
+                                <div class="grid__date">
+                                    <img src="img/calendar2.svg" alt="Err" class="grid__date__img">
+                                    <p class="grid__date__text">13 июня</p>
+                                </div>
+                                <div class="grid__time">
+                                    <img src="img/time.svg" alt="Err" class="grid__time__img">
+                                    <p class="grid__date__text">18:00</p>
+                                </div>
+                            </div>
+                            <div class="grid__item__subtext">Творческая ретушь для начинающих</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!--------------------------------------->
+        <!-- <section id="contacts" class="b-sixth-section">
+            <div class="container">
+                <h2 class="title">Контакты</h2>
+                <div class="grid">
+                    <div id="map" class="map">
+                        <div class="map__inner map__inner--active">
+                            <img class="map__inner__img map__inner--close" src="img/cross.svg" alt="Err">
+                            <h3 class="map__inner__title">Студия “High pass”</h3>
+                            <p class="map__inner__text">107045, Москва, Даев переулок, дом 41, бизнес-центр «Даев Плаза», этаж 8, офис № 82 </p>
+                            <div class="map__inner__link-container">
+                                <div class="map__inner__link-img"></div>
+                                <a class="map__inner__link" href="tel:+749542423532">+7 (495) 42-423-532</a>
+                            </div>
+                        </div>
+                        <div class="map__inner--open">
+                            <p>&gt;</p>
+                        </div>
+                    </div>
+                    <form class="form" method="POST" action="">
+                        <h3 class="subtitle">Оставить заявку</h3>
+                        <p class="text">
+                            Оставьте ваши данные, указав в графе 
+                            “Комментарий” желаемые время и дату 
+                            съемки или другого мероприятия
+                        </p>
+                        <input class="input" type="text" placeholder="Имя">
+                        <input class="input" type="email" placeholder="E-mail">
+                        <textarea class="textarea" placeholder="Комментарий"></textarea>
+                        <button class="btn" type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section> -->
+    </main>
+    <!--------------------------------------->
+    <!-- <footer class="b-footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__grid__item">
+                    <img src="img/Logo.svg" alt="logo" class="logo">
+                    <p class="underlogo">Фотостудия High pass® 2018-2020</p>
+                </div>
+                <div class="footer__grid__item">
+                    <p class="text">Которая из моих фотографий самая любимая? Та, которую я собираюсь снять завтра.</p>
+                    <p class="subtext">© Имоджен Каннингем</p>
+                </div>
+                <div class="footer__grid__item">
+                    <p class="more">Больше интересного:</p>
+                    <div class="header__social-container">
+                        <a href="#" class="header__social-link header__social-link--inst"></a>
+                        <a href="#" class="header__social-link header__social-link--fb"></a>
+                        <a href="#" class="header__social-link header__social-link--vk"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+    <!--------------SCRIPTS--------------->
+    <script src="js/tabs.js"></script>
+</body>
+</html>

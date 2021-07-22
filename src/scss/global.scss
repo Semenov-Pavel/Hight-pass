@@ -1,0 +1,68 @@
+//////////////////////////////////* ГЛОБАЛЬНЫЕ *//////////////////////////////////
+.container {
+    max-width: 1290px;
+    margin: 0 auto;
+}
+//////////////////////////////////
+.title {
+    font-family: 'TT Firs Neue';
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    color: #202020;
+}
+//////////////////////////////////
+.header__social-container {
+    display: flex;
+    margin-left: auto;
+    width: fit-content;
+    margin: 0 auto;
+}
+.header__social-link {
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: .2s ease-in-out;
+}
+.header__social-link:not(:last-child) {
+    margin-right: 20px;
+}
+///////////////////////////////////
+    .header__social-link--inst {
+        background: url('../img/social.svg');
+    }
+    .header__social-link--inst:hover {
+        background: url('../img/socialhover.svg');
+    }
+    .header__social-link--inst:focus {
+        background: url('../img/socialfocus.svg');
+    }
+    .header__social-link--inst:active {
+        background: url('../img/socialactive.svg');
+    }
+    .header__social-link--fb {
+        background: url('../img/fb.svg');
+    }
+    .header__social-link--fb:hover {
+        background: url('../img/fbhover.svg');
+    }
+    .header__social-link--fb:focus {
+        background: url('../img/fbfocus.svg');
+    }
+    .header__social-link--fb:active {
+        background: url('../img/fbactive.svg');
+    }
+    .header__social-link--vk {
+        background: url('../img/vk.svg');
+    }
+    .header__social-link--vk:hover {
+        background: url('../img/vkhover.svg');
+    }
+    .header__social-link--vk:focus {
+        background: url('../img/vkfocus.svg');
+    }
+    .header__social-link--vk:active {
+        background: url('../img/vkactive.svg');
+    }
